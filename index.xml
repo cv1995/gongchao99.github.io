@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://gongchao99.github.io/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Sep 2019 15:14:48 +0800</lastBuildDate>
+    
+	<atom:link href="https://gongchao99.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog</title>
+      <link>https://gongchao99.github.io/post/blog/</link>
+      <pubDate>Wed, 25 Sep 2019 15:14:48 +0800</pubDate>
+      
+      <guid>https://gongchao99.github.io/post/blog/</guid>
+      <description>内容参考B站Up主CodeSheep，视频地址：https://www.bilibili.com/video/av51574688 我整理了Windows下的操作方法，如下：
+1：在https://github.com/gohugoio/hugo/releases地址下找到Windows压缩文件下载，如下图你可以下载32或者64位的
+2:如何看hugo安装成没成功，打开cmd，输入hugo version，如图所示，则代表安装成功
+3：安装成功后，用Hugo来创建自己的博客，命令如下图所示：hugo new site myblog 注：myblog为文件夹名字
+3：输入dir，能看到文件夹已经创建好了，如图
+4：我们进入到myblog里面，可以看到如下内容
+5:下载设置主题，去https://themes.gohugo.io/选择自己喜欢的主题进行下载，如图
+6：这里我选择m10c，以他为例子，具体操作如图显示。注：前提一定要下git并且配置好！
+7：主题下载成功如图
+8：去themes下，看看有没有，如图有啦
+9：启动博客命令，输入 hugo server -t m10c &amp;ndash;buildDrafts
+10：如图所示，出来了
+11：接下来就是创建文章，我们继续在根目录下创建，如图
+12：那怎么写呢，推荐用VS Code来写，写完后记得保存！如图
+13：然后再根目录下输入指令 hugo server -t m10c &amp;ndash;buildDrafts，如图
+14：再打开http://localhost:1313，如图
+15：把博客部署的远端github上，首先创建仓库，如图
+16：仓库已经有了，但是个空仓库，接下来敲命令hugo &amp;ndash;theme=m10c &amp;ndash;baseUrl=&amp;ldquo;地址&amp;rdquo; &amp;ndash;buildDrafts，如图
+17：成功后会在根目录下生成一个public文件，如图
+18：把这个public传到github仓库上，首先进入到public，如图所示，已经把文件加到了仓库里面
+17：要把本地public和远程github进行关联
+18：然后还有个push命令，git push -u origin master，期间会让你输入账号密码，输入即可，如图完成
+19：我们刷新下github页面，就会看到文件已经传上来了，如图
+20：最后，我们拿仓库地址访问下，成功，博客已经部署到远端！如图。
+21：里面的内容也是可以访问的，如图</description>
+    </item>
+    
+  </channel>
+</rss>
